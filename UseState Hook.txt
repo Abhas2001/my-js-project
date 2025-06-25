@@ -1,0 +1,48 @@
+UseState Hook:
+
+
+***const [count, setCount] = useState(0);
+
+upper wale declaration ka matlab hota hai 
+
+
+1. ye humesha top pe hi declare kiya jaa sakta hai nahi to react confuse hojayega agar function ye sab me call kiye to ya kisi condition ke andar call kiye to 
+2. jo initial value 0 hai wo react ek special memory me save kar leta hai
+3. return 2 cheez karta hai count jo ki current value or setCount ek function hai jo react ko bolta hai ki ye value change kardo is liye jab bhi hum log call karte hai setCout(1); iska matlab hai react ko bola ki ab is count ka value 1 hoga 
+4.so basically ye ek array use karta hai andar jo ki value value store karne me kaam aata hai 
+
+
+** ab when we call setCount(1)
+React does not update count immediately.
+
+👉 Instead:
+
+It schedules an update.
+
+React re-renders the component.
+
+During the re-render, useState gives you the latest updated value.
+So if you console log right after setCount():
+
+js
+Copy
+Edit
+setCount(count + 1);
+console.log(count); // still the old value!
+Instead, use:
+
+js
+Copy
+Edit
+useEffect(() => {
+  console.log(count); // will show the new count after render
+}, [count]);
+
+
+This is a syntax error. JavaScript doesn’t know what to do with:
+
+js
+Copy
+Edit
+...prev, age: 25
+...prev only works inside an object literal ({}) or array ([])

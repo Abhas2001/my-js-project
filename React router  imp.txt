@@ -1,0 +1,23 @@
+React router : imp**
+
+*it is a library which handles navigation in react js application it allows navigation in a single page application
+
+*it maps various urls to components*
+
+
+* it carries the navigation without refreshing the page 
+
+
+
+  main components used in React Router:
+
+1. browser router : “BrowserRouter uses the HTML5 history API to keep your UI in sync with the URL. --- iske andar routes aata hai”
+
+  *it is component of react router
+  *in html 5 the browser lets javascript to change the url in the address bar without reloading the page
+   *ex:history.pushstate
+
+2. Routes :  it is a container for all the route definition -- basically iske andar hi saara route path or component ke saath rakh sakte
+
+3. Link and Navlink : these are like anchor tags it redirects to a particular url without reloading the page we use them inside the jsx like a tag -- basically ye anchor tag ki Tarah hai jo ek url pe leke jaata hai bina reload kiye 
+ ** UseNavigation() : this also does the same thing it also redirects to a path and renders that particular component but it is used inside functions not jsx

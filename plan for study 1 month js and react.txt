@@ -1,0 +1,73 @@
+plan for study 1 month js and react : We'll go React + JavaScript together — you can't learn one well without the other.
+
+🔁 Format for each day:
+📘 Theory (~1–2 hours)
+
+🧪 Hands-on/practice (~1 hour)
+
+✍️ Build something (~1 hour)
+
+✅ Week 1: Core JavaScript + React Basics
+Day	Topics
+1	✅ Done! React Router + useState Basics
+2	JavaScript variables, data types, functions; useEffect in React
+3	JavaScript arrays & methods (map, filter, etc.); React rendering
+4	Event handling, DOM, and conditional rendering in React
+5	props, props drilling, and component communication
+6	JavaScript objects, destructuring, spread/rest; useState with arrays/objects
+7	Mini Project 1 (e.g. Todo App, Counter App)
+
+✅ Week 2: React Deeper + Async JS
+useEffect in depth
+
+Lifecycle logic
+
+fetch, Promises, async/await
+
+Error handling
+
+Component patterns (lifting state up)
+
+Form handling (controlled inputs)
+
+✅ Week 3: Hooks & App Structure
+Custom hooks (useFetch, useCounter)
+
+useRef, useMemo, useCallback
+
+Routing with params
+
+Component folder structure
+
+Context API
+
+React DevTools usage
+
+✅ Week 4: API, Auth & Deployment
+Use external API (e.g. News API, OpenWeather)
+
+Simple Auth (login form + token storage)
+
+Add animations (Framer Motion)
+
+Build 1-page portfolio
+
+Deploy with Vercel/Netlify
+
+🔁 Daily Routine Suggestion
+Start with 1 JavaScript concept
+
+Then apply it inside a small React component
+
+Build something small daily (form, counter, card, etc.)
+
+Push to GitHub at least 3x/week
+
+✅ For Tomorrow (Day 2 Suggestion)
+Topics:
+
+JavaScript: functions, parameters, return values, arrow functions, scope
+
+React: useEffect, initial rendering, dependency array
+
+Practice: Use useEffect with a timer (setInterval) or fetch dummy data
